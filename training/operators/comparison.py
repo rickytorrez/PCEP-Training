@@ -33,4 +33,4 @@ print('a' is not 'a') #false
 # check out the id of objects
 print(id('a'))
 
-print([] is [])
+print([] is []) #false, you can modify empty lists
