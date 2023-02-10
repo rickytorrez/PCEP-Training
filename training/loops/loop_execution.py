@@ -33,7 +33,7 @@ while counter < 10:
 colors = ['blue', 'green', 'red', 'purple']
 for color in colors:
     if color == 'blue':
-        continue
+        continue # skip blue
     elif color == 'red':
         break
     print(color)
